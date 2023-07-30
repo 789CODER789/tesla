@@ -1,0 +1,283 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
+
+section {
+    height: 100vh;
+    padding: 10rem 9% 2rem;
+}
+
+header { 
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 100;
+    padding: .9rem 2%;
+}
+
+.logo {
+    color: #ffffff;
+    width: 12rem;
+    height: 2.4rem;
+    padding: .9rem 0;
+}
+
+.navbar,
+.shop {
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.navbar a,
+.shop a {
+    color: #ffffff;
+    margin-right: 1.5rem;
+    padding: .5rem;
+    transition: .5s ease;
+}
+
+.navbar a:hover,
+.shop a:hover {
+    background: rgba(37, 37, 37, 0.5);
+    border-radius: .5rem;
+    padding: .5rem;
+}
+
+/* end navbar */
+
+.home {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.demo a {
+    font-size: 1.6rem;
+    color: #ffffff;
+    padding: 0.6rem 6rem;
+    font-weight: 700;
+    background-color: transparent;
+    border: 3px solid #fff;
+    border-radius: 5px;
+}
+
+.demo {
+    margin-top: 30%;
+}
+
+video {
+    height: 120vh;
+    object-fit: cover;
+    z-index: 1;
+    margin-top: -20rem;
+    position: relative;
+}
+
+.text, .demo {
+    position: absolute;
+    z-index: 2;
+    text-align: center;
+    line-height: 2;
+    letter-spacing: 0.5px;
+}
+
+.text h1 {
+    color: #fff;
+    font-size: 4.2rem;
+}
+
+.text h2 {
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+
+/*  end home  */
+
+.heading {
+    text-align: center;
+    font-size: 3.6rem;
+    font-weight: 400;
+}
+
+.btn {
+    display: flex;
+    align-items: flex-end;
+}
+
+.btn a {
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: .7rem;
+    padding: .8rem 6.4rem;
+    margin: .5rem;
+}
+
+.btn a:first-child {
+    background-color: #171a20cc;
+    color: #ffffff;
+}
+
+.btn a:last-child {
+    background: rgba(255,255,255, .7);
+    color: #171a20cc;
+}
+
+.btn a.black {
+    font-size: 1.4rem;
+    font-weight: 500;
+    border-radius: .7rem;
+    padding: .9rem 8.4rem;
+    background-color: #171a20;
+    color: #ffffff;
+}
+ 
+.view {
+    color: #171a20;
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-decoration: underline;
+    margin-bottom: 35%;
+}
+
+.solar {
+    text-decoration: none;
+}
+
+
+.model_3 {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2560,w_4096,c_fit,f_auto,q_auto:best/Homepage-Model-3-Desktop-LHD);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Model_Y {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_2400,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-Y-Global-Desktop);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Model_S {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Model-S-homepage-desktop);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Model_X {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-Model-X-Desktop-LHD);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Solar_Panels {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/425_HP_SolarPanels_D);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Solar_Roof {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/h_1800,w_2880,c_fit,f_auto,q_auto:best/Homepage-SolarRoof-Desktop-Global);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Accessories {
+    background-image: url(https://digitalassets.tesla.com/tesla-contents/image/upload/f_auto,q_auto:best/Desktop_Accessories);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+.footer {
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 1% 12%;
+}
+
+.footer ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer ul li {
+    list-style: none;
+    padding-right: 10px;
+}
+
+.footer ul li a{
+    color: #5c5e62;
+}
+
+@media (max-width:1200px) {
+    html {
+        font-size: 55%;
+    }
+
+    .demo {
+        margin-top: 35%;
+    }
+
+}
+
+@media (max-width:1024px) {
+    .header {
+        width: 100%;
+        padding: 2rem 3%;
+    }
+
+}
